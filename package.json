@@ -1,0 +1,22 @@
+{
+  "name": "questbot",
+  "version": "1.0.0",
+  "description": "Discord Quest Auto-Farmer Bot using discord.js v14",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.97",
+    "dotenv": "^16.4.5",
+    "undici": "^6.21.0"
+  }
+}
